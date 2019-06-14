@@ -17,3 +17,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:9000/eureka/
+
+env:
+  dev
