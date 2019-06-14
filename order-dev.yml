@@ -19,4 +19,4 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:9000/eureka/
 
 env:
-  dev
+  beta
