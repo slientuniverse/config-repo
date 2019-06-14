@@ -10,7 +10,7 @@ spring:
     database: mysql
     show-sql: true
 server:
-  port: 9001
+  port: 9004
 eureka:
   instance:
     hostname: localhost
