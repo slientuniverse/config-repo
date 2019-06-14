@@ -7,6 +7,7 @@ spring:
     password: root
     url: jdbc:mysql://localhost/cloudtest?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=Asia/Shanghai
   jpa:
+    database: mysql
     show-sql: true
 server:
   port: 9001
