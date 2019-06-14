@@ -10,4 +10,10 @@ spring:
     database: mysql
     show-sql: true
 server:
-  port: 9001
+  port: 9002
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:9000/eureka/
