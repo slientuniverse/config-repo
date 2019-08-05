@@ -9,14 +9,6 @@ spring:
   jpa:
     database: mysql
     show-sql: true
-server:
-  port: 9400
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:9000/eureka/
 
 env:
   beta
