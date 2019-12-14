@@ -24,4 +24,4 @@ server:
   port: 9001
 
 env:
-  dev
+  beta
