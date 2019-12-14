@@ -23,9 +23,5 @@ spring:
 server:
   port: 9001
 
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:9000/eureka/
+env:
+  dev
